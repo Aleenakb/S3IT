@@ -1,0 +1,16 @@
+"""*********************************************************
+ALEENA BIJU            OCCURENCE          S3IT
+ROLL NO 7                                 DATE:
+*********************************************************"""
+string=input("enter a string:")
+sub=input("enter substring:")
+c=string.count(sub)
+print("number of repetition:",c)
+"""************************************************************
+           
+         SAMPLE OUTPUT
+
+enter a string ROSES ARE RED
+enter substring:RED
+number of occurence: 1
+**********************************************************"""

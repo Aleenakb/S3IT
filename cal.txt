@@ -1,0 +1,58 @@
+
+"""****************************************************************************
+ALEENA BIJU             CALCULATOR            ROLLNO:7
+S3IT                                          DATE:17/12/2021
+****************************************************************************"""
+
+def add(p,q):
+	return p+q
+def sub(p,q):
+	return p-q
+def mul(p,q):
+	return p*q
+def div(p,q):
+	return p/q
+def remainder(p,q):
+	return p%q
+def exponent(p,q):
+	return p**q
+print("select the operation")
+print("a. add")
+print("b. sub")
+print("c. mul")
+print("d. div")
+print("e. reminder")
+print("f. exponent")
+choice = input("please enter the choice(a/b/c/d/e/f):")
+num1 = int(input("enter the first number"))
+num2 = int(input("enter the second number"))
+
+
+if choice =='a':
+	print(num1,"+",num2,"=",add(num1,num2))
+elif choice =='b':
+	print(num1,"-",num2,"=",sub(num1,num2))
+elif choice=='c':
+	print(num1,"*",num2,"=",mul(num1,num2))
+elif choice=='d':
+	print(num1,"/",num2,"=",div(num1,num2))
+elif choice=='e':
+	print(num1,"%",num2,"=",remainder(num1,num2))
+elif choice=='f':
+	print(num1,"**",num2,"=",exponent(num1,num2))
+else:
+	print("invalid")
+"""************************************************************
+          SAMPLE OUTPUT
+select the operation
+a. add
+b. sub
+c. mul
+d. div
+e. reminder
+f. exponent
+please enter the choice(a/b/c/d/e/f):a
+enter the first number5
+enter the second number8
+5 + 8 = 13
+***************************************************************"""

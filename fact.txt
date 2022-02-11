@@ -1,0 +1,22 @@
+"""******************************************************************
+ALEENA BIJU            FACTORIAL            S3IT
+ROLL NO:7                                   DATE:
+******************************************************************"""
+def factorial(n):
+	if n==0:
+           return 1
+	elif(n<0):
+             print("factorial does not exist")	
+	else:
+           return n*factorial(n-1)
+n=int(input("input a number to compute the factorial:"))
+print(factorial(n))
+"""********************************************************************
+SAMPLE OUTPUT
+input a number to compute the factorial:5
+120
+input a number to compute the factorial:-3
+factorial does not exist
+input a number to compute the factorial:0
+1
+********************************************************************"""

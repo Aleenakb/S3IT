@@ -1,0 +1,32 @@
+
+"""********************************************************************************
+ALEENA BIJU         VOWELS,CONSTONANTS,QUESTION MARK,WORD    ROLLNO:7
+S3IT                                                         DATE:
+*******************************************************************************"""
+s=str(input("enter a string:"))
+s.lower()
+vowels=0
+constonants=0
+word=1
+qm=0
+for i in s:
+	if(i=='a' or i=='i' or i=='o' or i=='u'):
+		vowels=vowels+1
+	elif(i=="?"):
+		qm=qm+1
+	elif(i==" "):
+		word=word+1
+	else:
+		constonants=constonants+1
+print("number of vowels are",vowels)
+print("number of constonants are",constonants)
+print("number of words are",word)
+print("number of qm are",qm)
+"""**********************************************************************************
+               SAMPLE OUTPUT
+enter a string:how many flowers are there in garden????
+number of vowels are 6
+number of constonants are 24
+number of words are 7
+number of qm are 4
+**********************************************************************************"""

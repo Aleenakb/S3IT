@@ -1,0 +1,22 @@
+"""************************************************************
+ALEENA BIJU       LIST SEARCH        ROLLNO:7
+S3IT                                 DATE:17/12/2021
+*************************************************************"""
+
+
+
+list=input("enter the elements in the list:")
+print("\n")
+key=input("enter the number to search")
+if key in list:
+	print(key,"is present in list")
+else:
+	print(key,"is not present in the list")
+"""************************************************************
+          SAMPLE OUTPUT
+enter the elements in the list:4,9,2,3,2
+
+
+enter the number to search2
+2 is present in list
+**************************************************************"""

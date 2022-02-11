@@ -1,0 +1,49 @@
+
+"""************************************************
+ALEENA BIJU   ADD MATRIX    ROLLNO:7
+S3IT                         DATE:17/12/2021         
+************************************************"""
+
+rows=int(input("enter no of rows:"))
+columns=int(input("enter no of columns:"))
+print("enter the elements of first matrix:")
+matrix_a = [[int(input()) for i in range(columns)] for i in range(rows)]
+print("the first matrix is:")
+for n in matrix_a:
+	print(n)
+print("enter elements of second matrix:")
+matrix_b = [[int(input()) for i in range(columns)] for i in range(rows)]
+print("the first matrix is:")
+for n in matrix_b:
+	print(n)
+	result =[[0 for i in range(columns)] for i in range (rows)]
+for i in range(rows):
+	for j in range(columns):
+		result[i][j] = matrix_a[i][j] + matrix_b[i][j]
+print("the sum of two matrix is:")
+for r in result:
+	print(r) 
+"""*******************************************************
+SAMPLE OUTPUT
+enter no of rows:2
+enter no of columns:2
+enter the elements of first matrix:
+3
+2
+25
+2
+the first matrix is:
+[3, 2]
+[25, 2]
+enter elements of second matrix:
+5
+25
+65
+4
+the first matrix is:
+[5, 25]
+[65, 4]
+the sum of two matrix is:
+[8, 27]
+[90, 6]
+**********************************************************"""

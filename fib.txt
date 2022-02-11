@@ -1,0 +1,29 @@
+"""***********************************************************************************
+ALEENA BIJU                   FIBONACCI SEQUENCE        ROLLNO:7
+S3IT                                                    DATE:
+**********************************************************************************"""
+
+def fib(n):
+	if n<=1:
+         return n
+	else:
+         return(fib(n-1)+ fib(n-2))
+nterms=int(input("enter the number:"))
+if nterms <=0:
+	print("enter a positive integer")
+else:
+	print("fibonacci sequence")
+	for i in range(nterms):
+		print(fib(i))
+"""******************************************************************************************
+                        SAMPLE OUTPUT
+enter the number:6
+fibonacci sequence
+0
+1
+1
+2
+3
+5
+**************************************************************************************************"""
+          
